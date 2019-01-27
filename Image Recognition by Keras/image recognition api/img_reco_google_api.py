@@ -4,7 +4,7 @@ import googleapiclient.discovery
 from oauth2client.client import GoogleCredentials
 
 IMAGE_FILE = "temple.jpg"
-CREDENTIALS_FILE = "Google-Cloud-ML-credential.json"
+CREDENTIALS_FILE = "YOUR-CREDENTIAL-FILE.json"
 
 # Connect to the Google Cloud-ML Service
 credentials = GoogleCredentials.from_stream(CREDENTIALS_FILE) #read the credential file into an object
